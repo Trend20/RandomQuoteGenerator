@@ -1,16 +1,24 @@
 const quoteText = document.getElementById('text');
 const authorName = document.querySelector('#author');
-const quoteBtn = document.querySelector('#new_quote');
+const quoteBtn = document.querySelector('#new-quote');
 
-quoteBtn.addEventListener('click', function randomQuote(){
-    fetch('https://api.quotable.io/random')
-   .then(response => response.json())
-   .then(data => {
-    console.log(`${data.content} —${data.author}`)
-  });
-});
-    // async function randomQuote(){
-    //     const response = await fetch('https://api.quotable.io/random')
-    //     const data = await response.json()
-    //     console.log(`${data.content} —${data.author}`)
-    // }
+
+
+// let quotes = [
+//     'Loving',
+//     'Cooking',
+//     'Dancing',
+//     'Playing',
+//     'Eating',
+//     'Drinking',
+// ];
+
+// quoteBtn.addEventListener('click', newQuote);
+
+// function newQuote(){
+//     let randomNumber = Math.floor(Math.random() * (quotes.length));
+//     let realQuote = quoteText.innerHTML = (quotes[randomNumber]);
+//     let quotationMark = document.createElement('i');
+//     quotationMark.innerHTML = 'fas fa-quote-left';
+//     insertAfter(quotationMark, realQuote);
+// }

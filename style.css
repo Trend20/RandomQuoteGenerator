@@ -12,7 +12,7 @@ body{
 
  #quote-box{
      display: flex;
-     justify-content: flex-end;
+     justify-content: space-between;
      align-items: flex-end;
      flex-direction: column;
      margin: auto;
@@ -27,16 +27,15 @@ body{
  }
 
  #text{
-     color: #413e3e;
-     padding-top: 50px;
      margin: auto;
-     font-size: 20px;
+     width: auto;
  }
 
  #author{
-
+     margin-left: 20px;
+     width: auto;
  }
 
- .footer{
-     text-align: center;
+ #btn{
+     padding-left: 30px;
  }

@@ -39,4 +39,9 @@ body {
 
 #btn {
     padding-left: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    color: #fff;
 }

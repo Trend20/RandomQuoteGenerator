@@ -1,16 +1,14 @@
 ![](images/quotes2.png)
 
-# DogPic Website Directory
+# Random Quote Application
 
-### This is a Dog pics website directory built using HTML/ CSS/ JavaScript and the Dog API.
+### This is a Random Quote Application  built using HTML/ CSS/ JavaScript and the whatdoestrumpthink API.
 
-**Link to the API** : https://dog.ceo/dog-api/
+**Link to the API** : https://api.whatdoestrumpthink.com/api/
 
-* This website displays the images of dog breeds from differnt places.
-
-* You can search for the breed by clicking the links in the navigation.
+* This application displays random  quotes from different authors.
 
 
 ## To run the project locally just clone it using this command: 
 
-*git clone https://github.com/Trend20/DogSite*
+*git clone https://github.com/Trend20/RandomQuoteGenerator.git*

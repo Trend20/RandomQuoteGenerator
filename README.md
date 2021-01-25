@@ -2,7 +2,7 @@
 
 # Random Quote Application
 
-### This is a Random Quote Application  built using HTML/ CSS/ JavaScript and the whatdoestrumpthink API.
+### This is a Random Quote Application  built using HTML/ CSS/ JavaScript and the What Does Trump Think API.
 
 **Link to the API** : https://api.whatdoestrumpthink.com/api/
 
